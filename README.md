@@ -1,3 +1,18 @@
+## Deploying on Ganache
+
+Install truffle and web3.
+
+Initialize truffle using ``` truffle init ```
+
+Create the migration code.
+
+Add your contract and then add the network development details in truffle config.
+
+```truffle migrate```
+
+Create the web3.js file in services and add in the contract address, abi, etc.
+
+<hr>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
